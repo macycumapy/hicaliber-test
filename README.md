@@ -54,5 +54,5 @@ A message should be displayed if no results were found.
 - `npm run dev`
 - `cp .env.example .env`
 - `php artisan key:generate`
-- Настроить доступ к бд
+- Заполнить настройки бд в .env
 - `php artisan migrate --seed`
