@@ -1,16 +1,16 @@
-#PHP Developer Test
-##Background
+# PHP Developer Test
+## Background
 Demonstrate your skills using a varied range of technologies our company commonly uses.
 
 We’ll be assessing task completeness, as well as code quality.
 
 Publish it to the Github when finished. Include any instructions, or notes, or parts you wish to highlight. Feel free to demonstrate any additional knowledge or skills you have, where applicable to the task.
 
-###Estimated Time
+### Estimated Time
 
 3 hours
 
-###Skills Tested
+### Skills Tested
 
 Primary
 - PHP (Laravel)
@@ -21,7 +21,7 @@ Primary
 Bonus (optional)
 - Element UI: Use element-ui to style the frontend section.
 
-###Tasks
+### Tasks
 
 API
 
@@ -40,7 +40,7 @@ All search parameters should be optional, we should be able to search for 2 bedr
 
 The API should return JSON, with pure numeric data (not HTML content).
 
-##Frontend (Search Form)
+## Frontend (Search Form)
 
 Create a basic search form that will query the API using AJAX and display the results it receives from the backend. The searching result should be rendering to HTML table dynamically on the frontend, using reactive Vue.js
 
@@ -48,10 +48,10 @@ There should be some sort of searching indicator, a spinning icon or similar.
 
 A message should be displayed if no results were found. 
 
-#Install
-* composer install
-* npm install
-* npm run dev
-* cp .env.example .env
-* php artisan key:generate
-* php artisan migrate --seed
+# Install
+- `composer install`
+- `npm install`
+- `npm run dev`
+- `cp .env.example .env`
+- `php artisan key:generate`
+- `php artisan migrate --seed`

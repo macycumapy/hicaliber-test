@@ -1,6 +1,6 @@
 <template>
     <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-3 mb-2">
             <input
                 v-model="name"
                 type="text"
@@ -8,7 +8,7 @@
                 placeholder="Name"
             >
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mb-2">
             <input
                 v-model="price_from"
                 type="number"
@@ -16,7 +16,7 @@
                 placeholder="Price from"
             >
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mb-2">
             <input
                 v-model="price_to"
                 type="number"
@@ -24,7 +24,7 @@
                 placeholder="Price to"
             >
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mb-2">
             <input
                 v-model="bedrooms"
                 type="number"
@@ -32,7 +32,7 @@
                 placeholder="Bedrooms"
             >
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mb-2">
             <input
                 v-model="bathrooms"
                 type="number"
@@ -40,7 +40,7 @@
                 placeholder="Bathrooms"
             >
         </div>
-        <div class="col-3">
+        <div class="col-3 mb-2">
             <input
                 v-model="storeys"
                 type="number"
@@ -48,7 +48,7 @@
                 placeholder="Storeys"
             >
         </div>
-        <div class="col-md-3">
+        <div class="col-md-3 mb-2">
             <input
                 v-model="garages"
                 type="number"
