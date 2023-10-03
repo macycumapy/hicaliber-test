@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace App\Models;
 
-use Illuminate\Database\Eloquent\Builder;
+use App\Builders\HouseBuilder;
 use Illuminate\Database\Eloquent\Model;
 
 /**
@@ -15,7 +15,7 @@ use Illuminate\Database\Eloquent\Model;
  * @property int $bathrooms
  * @property int $storeys
  * @property int $garages
- * @mixin Builder
+ * @mixin HouseBuilder
  */
 class House extends Model
 {
@@ -33,4 +33,9 @@ class House extends Model
         'storeys',
         'garages',
     ];
+
+    public function newEloquentBuilder($query): HouseBuilder
+    {
+        return new HouseBuilder($query);
+    }
 }
