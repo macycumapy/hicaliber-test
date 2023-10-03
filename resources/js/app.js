@@ -16,7 +16,9 @@ import { createApp } from 'vue';
 const app = createApp({});
 
 import HousesList from './components/HousesList.vue';
+import HousesListFilters from './components/HousesListFilters.vue';
 app.component('houses-list', HousesList);
+app.component('houses-list-filters', HousesListFilters);
 
 /**
  * The following block of code may be used to automatically register your
